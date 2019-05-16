@@ -1,0 +1,101 @@
+.app-container{
+  height: 36px;
+  display: flex;
+  padding: 20px;
+  border-bottom: 1px solid #4b545a;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.githubProfile:hover{
+  box-shadow: 0 1px 20px 0 #282c34;
+  background: #26282f;
+  cursor: pointer;
+}
+
+.app-header{
+  margin: 0;
+  font-size: calc(10px + 1vmin);
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.app-gh-form{
+  min-width: 300px;
+  width: auto;
+  display: inline-block;
+}
+#app-gh-input{
+  height: 24px;
+  min-width: 16vw;
+  border-radius: 32px;
+  font-size: 15px;
+  padding: 5px 15px;
+  border: 1px solid ;
+  box-shadow: 0 1px 20px 0 #282c34;
+  margin-right: 20px;
+}
+
+#app-gh-input:focus{
+  outline: white auto 0;
+  border: 1px solid;
+  box-shadow: 1px 3px 10px 1px #000000b8
+}
+
+#app-gh-addBtn{
+  height: 32px;
+  width: 64px;
+  border: none;
+  color: white;
+  background-color: #03A9F4;
+  font-size: 16px;
+  font-weight: 600;
+  border-radius: 32px;
+  cursor: pointer;
+  box-shadow: none;
+  outline: white auto 0;
+}
+
+#app-gh-addBtn:hover{
+  transition: ease-in-out 2s;
+  box-shadow: 1px 3px 10px 1px #000000b8
+}
+
+
+body{
+  background-color: #282c34;
+  height: 100%;
+  color: white;
+  font-family: 'Roboto', sans-serif !important;
+  overflow: hidden;
+}
+
+.app-no-content{
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  font-size: 19px;
+  justify-content: center;
+  color: #5e6579;
+}
+
+.gh-profile-content{
+  width: 100%;
+  height: 400px;
+  box-shadow: 8px 3px 20px 0px #0e0c0c5c;
+}
+
+.top-content{
+  height: 80%;
+  display: flex;
+  align-items: center;
+}
+
+.bottom-content{
+  height: 20%;
+  display: flex;
+  align-items: center;
+}
